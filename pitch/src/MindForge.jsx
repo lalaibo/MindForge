@@ -117,11 +117,6 @@ export default function Presentation() {
               <p style={{ marginTop: '10px' }}>Flutter</p>
             </div>
 
-            {/* Frontend Web */}
-            <div style={{ textAlign: 'center' }}>
-              <i className="devicon-angularjs-plain colored" style={{ fontSize: '3em' }}></i>
-              <p style={{ marginTop: '10px' }}>Angular</p>
-            </div>
 
             {/* Backend REST API */}
             <div style={{ textAlign: 'center' }}>
