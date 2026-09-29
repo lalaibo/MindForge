@@ -38,7 +38,7 @@ export default function Presentation() {
         <section>
           <h2>Worum geht&rsquo;s?</h2>
           <p>Schüler lernen ständig auf Prüfungen &ndash; und bauen sich dafür immer wieder Zusammenfassungen und Karteikarten.</p>
-          <p>Learn Quest nimmt ihnen diese Arbeit ab und macht das Wiederholen spielerischer.</p>
+          <p>Mind Forge nimmt ihnen diese Arbeit ab und macht das Wiederholen spielerischer.</p>
         </section>
 
         {/* Slide 3 */}
@@ -88,7 +88,7 @@ export default function Presentation() {
         <section>
           <h2>Der Ritterkampf</h2>
           <p>Jede richtige Antwort verletzt den Gegner, jede falsche kostet den eigenen Ritter Leben.</p>
-          <p className="small">Mehrere Schwierigkeitsgrade &middot; Game Over bei 0 Leben<br />Ob es zusätzlich ein zweites Spiel gibt (z.&nbsp;B. Space Invader), entscheiden wir später.</p>
+          <p className="small">Mehrere Schwierigkeitsgrade &middot; Game Over bei 0 Leben</p>
         </section>
 
         {/* Slide 8 */}
@@ -96,7 +96,7 @@ export default function Presentation() {
           <h2>Geschäftsmodell (simuliert)</h2>
           <ul>
             <li>Kernfunktionen bleiben gratis</li>
-            <li>Coins &ndash; ohne echtes Geld &ndash; schalten mehr KI-Nutzung, Zusatzmodi und Skins frei</li>
+            <li>Coins &ndash; erspielt oder gekauft &ndash; schalten mehr KI-Nutzung, Zusatzmodi und Skins frei</li>
             <li>Bewusst kein Pay-to-Win: Wissen lässt sich nicht kaufen</li>
           </ul>
         </section>
