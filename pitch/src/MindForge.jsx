@@ -30,7 +30,7 @@ export default function Presentation() {
       <div className="slides">
         {/* Slide 1 */}
         <section>
-          <h1>Mind Forge</h1>
+          <h1>Learn Quest</h1>
           <p className="subtitle">Lernen mit Karteikarten &ndash; schneller erstellt, motivierender gelernt</p>
         </section>
 
@@ -258,10 +258,8 @@ export default function Presentation() {
           <h2>Qualitätsziele</h2>
           <ul>
             <li>Erste Karte in maximal 3 Klicks</li>
-            <li>Deck öffnet in unter 1 s, KI liefert Karten in unter 15 s</li>
+            <li>Deck öffnet in unter 1 s, KI liefert Karten in unter 60 s</li>
             <li>Läuft auf Android 10+, iOS 15+ und Windows 10+</li>
-            <li>HTTPS und gehashte Passwörter</li>
-            <li>Mindestens 60&nbsp;% Testabdeckung, automatisiert über CI</li>
           </ul>
         </section>
 
