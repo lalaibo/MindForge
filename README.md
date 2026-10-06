@@ -1,4 +1,4 @@
-# Pflichtenheft - Learn Quest
+# Pflichtenheft - Mind Forge
 
 ## 1. Ausgangssituation
 
