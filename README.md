@@ -28,7 +28,7 @@ Analoge Karten kosten viel Zeit; bestehende digitale Tools bieten keinen KI-Impo
 
 - Bedienbarkeit: max. 3 Klicks bis zur ersten Karte
 - Performance: Deck-Öffnung < 1s, KI-Generierung < 15s
-- Plattformen: Android 10+, iOS 15+, Windows 10+
+- Plattformen: Android 10+ und iOS 15+ als App, Webseite für Laptop/PC (aktuelle Versionen von Chrome, Firefox, Edge und Safari); keine Desktop-App für Windows, macOS oder Linux
 - Sicherheit: HTTPS/TLS, gehashte Passwörter
 - Wartbarkeit: mind. 60 % Testabdeckung, CI/CD
 
@@ -44,7 +44,7 @@ Ca. 15 Fächer × 30 Karten = 450 Karten/Jahr pro Nutzer; bei 200 Nutzern ca. 90
 
 ## 7. Rahmenbedingungen
 
-- Technisch: Flutter (Dart) für Desktop/Mobile, Backend Node.js/FastAPI + PostgreSQL, Flame-Engine falls zweites Spiel (z. B. Space Invader) umgesetzt wird
+- Technisch: Flutter (Dart) für die Mobile-App (Android/iOS) und die Webseite (Flutter Web), Backend Node.js/FastAPI + PostgreSQL, Flame-Engine falls zweites Spiel (z. B. Space Invader) umgesetzt wird
 - Zeitlich: 1 Schuljahr, MVP bis Semesterende
 - Personell: 4 Teammitglieder (Frontend, Backend, KI-Import, Tracking/Spiele)
 - Vorgaben: User Stories im GitHub Project, priorisiert

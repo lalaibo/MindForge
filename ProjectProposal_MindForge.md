@@ -42,10 +42,10 @@ Es fehlt ein Werkzeug, das KI-gestützten Import, mehrere Lernmodi und echte Gam
 
 ### Technische Rahmenbedingungen
 
-- **Client:** Flutter (Dart) für Desktop und Mobile.
+- **Client:** Flutter (Dart) mit einer gemeinsamen Codebasis für die Mobile-App (Android, iOS) und die Webseite (Flutter Web). Eine Desktop-App für Windows, macOS oder Linux ist nicht geplant.
 - **Backend:** Node.js/FastAPI mit PostgreSQL.
 - **Spiele:** Flame-Engine, falls ein zweites, echtzeitbasiertes Spiel (z. B. Space Invader) umgesetzt wird.
-- **Plattformen:** Android 10+, iOS 15+, Windows 10+.
+- **Plattformen:** Android 10+ und iOS 15+ als App; auf Laptop und PC als Webseite in aktuellen Browsern (Chrome, Firefox, Edge, Safari).
 - **Infrastruktur:** GitHub für Quellcode, Projektverwaltung und CI/CD.
 
 ### Qualitätsvorgaben
@@ -108,7 +108,7 @@ Die Kernfunktionen bleiben gratis. Coins, erspielt oder gekauft, schalten zusät
 | KI-Schnittstelle verursacht Kosten oder hat Nutzungslimits | KI-Import nur eingeschränkt verfügbar | Kontingent pro Nutzer begrenzen, manueller Import bleibt immer möglich |
 | Funktionsumfang zu groß für 4 Personen und 1,5 Jahre | Ziele werden nicht erreicht | Klare Priorisierung: MVP zuerst, zweites Spiel ausdrücklich optional |
 | Fehlende Erfahrung mit Flutter und Spieleentwicklung | Verzögerungen in der Umsetzung | Einarbeitungsphase einplanen, früh einen technischen Prototyp bauen |
-| iOS-Build benötigt Apple-Hardware und Entwicklerkonto | iOS-Version nicht test- oder auslieferbar | Android und Windows priorisieren, iOS nachrangig |
+| iOS-Build benötigt Apple-Hardware und Entwicklerkonto | iOS-Version nicht test- oder auslieferbar | Android und Webseite priorisieren, iOS nachrangig |
 | Schüler bleiben bei Anki/Quizlet | Geringe Nutzung | Früh mit Mitschülern testen und Rückmeldungen einarbeiten |
 | Hochgeladene Skripten sind urheberrechtlich geschützt | Rechtliche Probleme beim Teilen | Dokumente nur zur Kartenerzeugung verarbeiten, nicht weitergeben |
 

@@ -111,10 +111,10 @@ export default function Presentation() {
             marginTop: '40px',
             fontSize: '0.65em'
           }}>
-            {/* Frontend Mobile / Desktop */}
+            {/* Frontend Mobile / Web */}
             <div style={{ textAlign: 'center' }}>
               <i className="devicon-flutter-plain colored" style={{ fontSize: '3em' }}></i>
-              <p style={{ marginTop: '10px' }}>Flutter</p>
+              <p style={{ marginTop: '10px' }}>Flutter (App &amp; Web)</p>
             </div>
 
 
