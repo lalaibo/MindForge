@@ -110,3 +110,9 @@ Datenbestände: Text, Bilder, Audio, Lernstatistik.
 - **Personell:** 4 Teammitglieder (Frontend, Backend, KI-Import, Tracking/Spiele).
 - **Finanziell:** kein Budget; es werden nur kostenlose oder für Schüler frei verfügbare Werkzeuge und Dienste eingesetzt.
 - **Vorgaben:** User Stories im GitHub Project, priorisiert.
+
+### System Architecktur
+<img src="./assets/mindForgeArch.png" alt="Architecture diagram" width="600">
+
+### Deployment 
+<img src="../assets/mindForgeDeploy_uml.png alt="Deployment diagram" width="600">
