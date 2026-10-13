@@ -67,9 +67,9 @@ Mind Forge nimmt Schülern die Arbeit des Kartenschreibens ab und macht das Wied
 
 ### So arbeitet ein Schüler mit Mind Forge
 
-1. Er legt pro Fach einen Stapel (Deck) an.
+1. Er legt für jedes Fach (z. B. Englisch, Mathe, Biologie) einen Ordner an und darin einen oder mehrere Stapel (Decks), z. B. „Bio – Zellen“ und „Bio – Genetik“.
 2. Er füllt den Stapel, entweder durch Einfügen einer Liste (`Begriff;Erklärung`) oder indem er ein PDF, Word- oder Markdown-Dokument hochlädt. Die KI erzeugt daraus Karten oder Testfragen.
-3. Er wählt einen Lernmodus: Karteikarte umdrehen, Multiple Choice, Freitext, Lückentext, Zuordnen, Richtig/Falsch oder das Leitner-System, bei dem schwierige Karten öfter kommen.
+3. Er wählt einen Lernmodus: Karteikarte umdrehen, Multiple Choice, Zuordnen, Richtig/Falsch oder das Leitner-System, bei dem schwierige Karten öfter kommen.
 4. Er lernt wahlweise mit Stoppuhr oder Zeitlimit pro Session.
 5. Er sieht seinen Lernverlauf als Liniendiagramm, hält seinen Tages-Streak und wird ans Lernen erinnert.
 6. Zur Abwechslung spielt er den **Ritterkampf**: ein rundenbasiertes Duell, in dem jede richtige Antwort den Gegner verletzt und jede falsche den eigenen Ritter Leben kostet, in mehreren Schwierigkeitsgraden.
@@ -82,7 +82,7 @@ Die Kernfunktionen bleiben gratis. Coins, erspielt oder gekauft, schalten zusät
 
 - Das Basis-Feature-Set ist kostenlos nutzbar (mindestens 3 Decks à 50 Karten).
 - Der KI-Import senkt die Erstellzeit für 30 Karten auf unter 2 Minuten.
-- Zum Projektende sind mindestens 5 Lernmodi und der Ritterkampf als Prototyp lauffähig.
+- Zum Projektende sind mindestens 4 Lernmodi und der Ritterkampf als Prototyp lauffähig.
 - Ein zweites Spiel (z. B. Space Invader) ist optional und kein Abnahmekriterium.
 
 ## 4. Chancen und Risiken
@@ -132,7 +132,7 @@ Die Kernfunktionen bleiben gratis. Coins, erspielt oder gekauft, schalten zusät
 | Oktober 2026 | User Stories priorisiert, Architektur und Technologien festgelegt, Beginn der Implementierung |
 | Dezember 2026 | Erster Prototyp: Stapelverwaltung, manueller Import, Lernmodus Karteikarte |
 | Februar 2027 (Semesterende) | **MVP:** Anmeldung, KI-Import, mindestens 3 Lernmodi, Fortschrittsanzeige |
-| Juni 2027 (Ende 4. Klasse) | Mindestens 5 Lernmodi inkl. Leitner-System, Streaks und Erinnerungen, erste spielbare Version des Ritterkampfs |
+| Juni 2027 (Ende 4. Klasse) | Mindestens 4 Lernmodi inkl. Leitner-System, Streaks und Erinnerungen, erste spielbare Version des Ritterkampfs |
 | Dezember 2027 | Ritterkampf mit mehreren Schwierigkeitsgraden, simulierte Paywall mit Coins, ggf. zweites Spiel |
 | Frühjahr 2028 (5. Klasse) | Tests und Fehlerbehebung, Abschlusspräsentation und Projektende |
 

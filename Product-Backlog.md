@@ -16,19 +16,23 @@ Als Schüler möchte ich ein eigenes Konto haben, damit meine Daten sicher gespe
 ## Epic 2: Stapel- und Kartenverwaltung
 Als Schüler möchte ich meinen Lernstoff schnell in Stapel und Karten bringen und übersichtlich verwalten.
 
-- **US 2.1: Stapel (Decks) verwalten**  
-  *Als Schüler* möchte ich pro Fach einen Stapel anlegen, umbenennen und löschen können, *um* meinen Lernstoff übersichtlich nach Fächern zu ordnen.  
+- **US 2.1: Fächer verwalten**  
+  *Als Schüler* möchte ich Fächer (z. B. Englisch, Mathe, Biologie) als Ordner anlegen, umbenennen und löschen können, *um* meinen Lernstoff übersichtlich nach Fächern zu ordnen.  
+  Priorität: High · Aufwand: Low
+
+- **US 2.2: Stapel (Decks) verwalten**  
+  *Als Schüler* möchte ich innerhalb eines Fachs einen oder mehrere Stapel anlegen, umbenennen, löschen und in ein anderes Fach verschieben können, *um* den Stoff eines Fachs nach Themen aufzuteilen.  
   Priorität: High · Aufwand: Medium
 
-- **US 2.2: Karten manuell erstellen & bearbeiten**  
+- **US 2.3: Karten manuell erstellen & bearbeiten**  
   *Als Schüler* möchte ich einzelne Karten mit Begriff und Erklärung anlegen, bearbeiten und löschen können, *um* meinen Stapel selbst ergänzen und Fehler korrigieren zu können.  
   Priorität: High · Aufwand: Low
 
-- **US 2.3: Listen-Import (Begriff;Erklärung)**  
+- **US 2.4: Listen-Import (Begriff;Erklärung)**  
   *Als Schüler* möchte ich eine Liste im Format `Begriff;Erklärung` einfügen können, *um* viele Karten auf einmal anzulegen, ohne jede einzeln abzutippen.  
   Priorität: High · Aufwand: Low
 
-- **US 2.4: Bilder & Audio auf Karten**  
+- **US 2.5: Bilder & Audio auf Karten**  
   *Als Schüler* möchte ich Bilder und Audiodateien zu einer Karte hinzufügen können, *um* auch Stoff wie Diagramme oder Aussprache lernen zu können.  
   Priorität: Low · Aufwand: Medium
 
@@ -62,27 +66,19 @@ Als Schüler möchte ich denselben Stoff in verschiedenen Modi wiederholen, pass
   *Als Schüler* möchte ich zu einem Begriff aus mehreren Antworten die richtige auswählen können, *um* den Stoff abwechslungsreich und schnell abzufragen.  
   Priorität: High · Aufwand: Medium
 
-- **US 4.3: Lernmodus Freitext**  
-  *Als Schüler* möchte ich die Antwort zu einer Karte selbst eintippen können, *um* zu überprüfen, ob ich den Stoff wirklich aktiv abrufen kann.  
-  Priorität: High · Aufwand: Medium
-
-- **US 4.4: Leitner-System (Spaced Repetition)**  
+- **US 4.3: Leitner-System (Spaced Repetition)**  
   *Als Schüler* möchte ich mit dem Leitner-System lernen können, *um* dass schwierige Karten öfter und gut gekonnte seltener abgefragt werden.  
   Priorität: Medium · Aufwand: High
 
-- **US 4.5: Lernmodus Lückentext**  
-  *Als Schüler* möchte ich Erklärungen mit Lücken ausfüllen können, *um* mir Schlüsselbegriffe im Zusammenhang einzuprägen.  
-  Priorität: Medium · Aufwand: Medium
-
-- **US 4.6: Lernmodus Zuordnen**  
+- **US 4.4: Lernmodus Zuordnen**  
   *Als Schüler* möchte ich mehrere Begriffe den passenden Erklärungen zuordnen können, *um* Zusammenhänge zwischen Begriffen spielerisch zu lernen.  
   Priorität: Medium · Aufwand: Medium
 
-- **US 4.7: Lernmodus Richtig/Falsch**  
+- **US 4.5: Lernmodus Richtig/Falsch**  
   *Als Schüler* möchte ich entscheiden können, ob eine angezeigte Erklärung zum Begriff passt, *um* den Stoff schnell zwischendurch zu wiederholen.  
   Priorität: Medium · Aufwand: Low
 
-- **US 4.8: Stoppuhr & Zeitlimit**  
+- **US 4.6: Stoppuhr & Zeitlimit**  
   *Als Schüler* möchte ich eine Lernsession mit Stoppuhr oder mit festem Zeitlimit starten können, *um* meine Lernzeit im Blick zu behalten und unter Zeitdruck zu üben.  
   Priorität: Medium · Aufwand: Low
 

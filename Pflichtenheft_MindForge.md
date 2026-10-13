@@ -47,7 +47,7 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 #### 1.4.1. Funktionale Anforderungen
 
 - **Benutzerkonto:** Registrierung und Anmeldung mit E-Mail und Passwort. Stapel und Lernfortschritt sind auf allen Geräten (App und Webseite) verfügbar.
-- **Stapelverwaltung:** Decks pro Fach anlegen, umbenennen und löschen. Karten mit Begriff und Erklärung erstellen, bearbeiten, löschen und zwischen Decks verschieben. Optional können Bilder und Audio an eine Karte angehängt werden.
+- **Stapelverwaltung:** Fächer (z. B. Englisch, Mathe, Biologie) dienen als Ordner und können angelegt, umbenannt und gelöscht werden. In jedem Fach können ein oder mehrere Decks angelegt, umbenannt, gelöscht und in ein anderes Fach verschoben werden. Karten mit Begriff und Erklärung erstellen, bearbeiten, löschen und zwischen Decks verschieben. Optional können Bilder und Audio an eine Karte angehängt werden.
 - **Import:**
   - Manuell durch Einfügen einer Liste im Format `Begriff;Erklärung` (eine Karte pro Zeile).
   - Per KI aus einem hochgeladenen PDF-, Word- oder Markdown-Dokument. Wahlweise entstehen Karten oder Testfragen.
@@ -56,11 +56,9 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 - **Lernmodi:**
   - *Karteikarte:* Karte umdrehen und sich selbst bewerten.
   - *Multiple Choice:* richtige Erklärung aus mehreren Antworten wählen; falsche Antwortmöglichkeiten werden aus anderen Karten desselben Decks genommen.
-  - *Freitext:* Antwort eintippen und mit der hinterlegten Lösung vergleichen.
-  - *Lückentext:* Schlüsselbegriffe in einer Erklärung ergänzen.
   - *Zuordnen:* mehrere Begriffe den passenden Erklärungen zuordnen.
   - *Richtig/Falsch:* entscheiden, ob die angezeigte Erklärung zum Begriff passt.
-  - *Leitner-System:* Karten wandern bei richtiger Antwort ein Fach weiter, bei falscher zurück an den Anfang. Schwierige Karten kommen dadurch öfter.
+  - *Leitner-System:* Karten wandern bei richtiger Antwort eine Box weiter, bei falscher zurück an den Anfang. Schwierige Karten kommen dadurch öfter.
   - Nach jeder Session wird eine Auswertung mit Trefferquote angezeigt.
 - **Zeitfunktion:** Lernsession wahlweise mit Stoppuhr oder mit festem Zeitlimit.
 - **Fortschritts-Tracking:** Ergebnisse jeder Session werden gespeichert und als Liniendiagramm über die Zeit dargestellt. Dazu kommen ein Tages-Streak und Erinnerungen zu einer selbst gewählten Uhrzeit.
@@ -86,7 +84,7 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 
 - **Kostenlos lernen:** Das Basis-Feature-Set ist kostenlos nutzbar (mind. 3 Decks à 50 Karten). Schüler bekommen damit Funktionen, für die andere Tools ein Abo verlangen.
 - **Zeit sparen:** Der KI-Import senkt die Erstellzeit für 30 Karten auf unter 2 Minuten. Die gewonnene Zeit fließt ins Lernen statt ins Abtippen.
-- **Abwechslung:** Mind. 5 Lernmodi und der Ritterkampf sind zum Projektende als Prototyp lauffähig (zweites Spiel optional). Derselbe Stoff lässt sich so passend zum Fach wiederholen.
+- **Abwechslung:** Mind. 4 Lernmodi und der Ritterkampf sind zum Projektende als Prototyp lauffähig (zweites Spiel optional). Derselbe Stoff lässt sich so passend zum Fach wiederholen.
 - **Regelmäßig lernen:** Streaks, Erinnerungen und das Lernspiel motivieren zum täglichen Wiederholen statt zum Lernen am Vorabend.
 - **Lernstand sichtbar machen:** Trefferquote und Verlaufsdiagramm zeigen ehrlich, welcher Stoff schon sitzt und welcher nicht.
 
@@ -95,7 +93,8 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 | Größe | Annahme |
 |---|---|
 | Fächer pro Nutzer | ca. 15 |
-| Karten pro Fach | ca. 30 |
+| Decks pro Fach | ca. 2 |
+| Karten pro Deck | ca. 15 |
 | Karten pro Nutzer und Jahr | ca. 450 |
 | Nutzer (realistische Basis an der HTL Leonding) | ca. 200 |
 | Karten gesamt | ca. 90.000 |

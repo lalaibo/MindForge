@@ -65,7 +65,7 @@ export default function Presentation() {
         <section>
           <h2>Unsere Idee</h2>
           <ul>
-            <li>Decks pro Fach anlegen und Karten mit Begriff &amp; Erklärung füllen</li>
+            <li>Fächer als Ordner, darin Decks mit Karten aus Begriff &amp; Erklärung</li>
             <li>Import per Text (<code>Begriff;Erklärung</code>) oder KI aus PDF, Word und Markdown</li>
             <li>Lernverlauf als Kurve, tägliche Streaks und Erinnerungen</li>
             <li>Lernen mit Stoppuhr oder Zeitlimit</li>
@@ -75,10 +75,9 @@ export default function Presentation() {
         {/* Slide 6 */}
         <section>
           <h2>So wird gelernt</h2>
-          <p className="small">Sieben Modi, die sich je nach Stoff abwechseln lassen:</p>
+          <p className="small">Fünf Modi, die sich je nach Stoff abwechseln lassen:</p>
           <ul>
             <li>Klassisch umdrehen &amp; Multiple Choice</li>
-            <li>Freitext &amp; Lückentext</li>
             <li>Zuordnen &amp; Richtig/Falsch</li>
             <li>Leitner-System: schwierige Karten kommen öfter</li>
           </ul>
