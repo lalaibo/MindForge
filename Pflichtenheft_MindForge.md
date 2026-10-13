@@ -115,4 +115,4 @@ Datenbestände: Text, Bilder, Audio, Lernstatistik.
 <img src="./assets/mindForgeArch.png" alt="Architecture diagram" width="600">
 
 ### Deployment 
-<img src="../assets/mindForgeDeploy_uml.png alt="Deployment diagram" width="600">
+<img src="./assets/mindForgeDeploy_uml.png" alt="Deployment diagram" width="600">
