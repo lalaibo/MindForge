@@ -47,7 +47,7 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 #### 1.4.1. Funktionale Anforderungen
 
 - **Benutzerkonto:** Registrierung und Anmeldung mit E-Mail und Passwort. Stapel und Lernfortschritt sind auf allen Geräten (App und Webseite) verfügbar.
-- **Stapelverwaltung:** Fächer (z. B. Englisch, Mathe, Biologie) dienen als Ordner und können angelegt, umbenannt und gelöscht werden. In jedem Fach können ein oder mehrere Decks angelegt, umbenannt, gelöscht und in ein anderes Fach verschoben werden. Karten mit Begriff und Erklärung erstellen, bearbeiten, löschen und zwischen Decks verschieben. Optional können Bilder und Audio an eine Karte angehängt werden.
+- **Stapelverwaltung:** Fächer (z. B. Englisch, Mathe, Biologie) dienen als Ordner und können angelegt, umbenannt und gelöscht werden. In jedem Fach können ein oder mehrere Decks angelegt, umbenannt, gelöscht und in ein anderes Fach verschoben werden. Fächer und Decks sind unbegrenzt, begrenzt ist nur die Anzahl der Karten pro Nutzer (max. 1.000, mit Coins erweiterbar). Karten mit Begriff und Erklärung erstellen, bearbeiten, löschen und zwischen Decks verschieben. Optional können Bilder an eine Karte angehängt werden; sie werden beim Hochladen auf max. 1 MB pro Bild verkleinert.
 - **Import:**
   - Manuell durch Einfügen einer Liste im Format `Begriff;Erklärung` (eine Karte pro Zeile).
   - Per KI aus einem hochgeladenen PDF-, Word- oder Markdown-Dokument. Wahlweise entstehen Karten oder Testfragen.
@@ -65,14 +65,14 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 - **Lernspiel:**
   - *Ritterkampf* (fest geplant): rundenbasiertes Duell mit Fragen aus dem eigenen Deck. Richtige Antworten verletzen den Gegner, falsche kosten den eigenen Ritter Leben. Mehrere Schwierigkeitsgrade.
   - Ein zweites, echtzeitbasiertes Spiel (z. B. Space Invader) ist optional.
-- **Teilen:** fertige Decks mit Mitschülern teilen und geteilte Decks übernehmen.
-- **Simulierte Paywall:** Die Basis ist kostenlos. Coins werden durch Lernen und gewonnene Ritterkämpfe verdient oder (simuliert) gekauft und schalten zusätzliches KI-Kontingent, weitere Modi und Kosmetik frei. Kein Pay-to-Win, es fließt kein echtes Geld.
+- **Teilen:** fertige Decks mit Mitschülern teilen und geteilte Decks übernehmen. Ein übernommenes Deck ist eine Kopie im eigenen Konto und zählt zum eigenen Kartenlimit.
+- **Simulierte Paywall:** Die Basis ist kostenlos. Coins werden durch Lernen und gewonnene Ritterkämpfe verdient oder (simuliert) gekauft und schalten zusätzliches KI-Kontingent, ein höheres Kartenlimit, weitere Modi und Kosmetik frei. Kein Pay-to-Win, es fließt kein echtes Geld.
 
 #### 1.4.2. Nichtfunktionale Anforderungen (NFA)
 
 - **Bedienbarkeit:** max. 3 Klicks vom Start bis zur ersten Karte. Wird in einem Test mit mindestens 5 Mitschülern überprüft, die die App vorher nicht kannten.
 - **Performance:**
-  - Öffnen eines Decks mit 500 Karten in unter 1 s
+  - Öffnen eines Decks mit 1.000 Karten in unter 1 s
   - Wechsel zur nächsten Karte in unter 200 ms
   - KI-Generierung von 30 Karten aus einem Dokument in unter 15 s
 - **Plattformen:** Android 10+ und iOS 15+ als App, Webseite für Laptop/PC (aktuelle Versionen von Chrome, Firefox, Edge und Safari); keine Desktop-App für Windows, macOS oder Linux.
@@ -82,13 +82,15 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 
 ### 1.5. Ziele
 
-- **Kostenlos lernen:** Das Basis-Feature-Set ist kostenlos nutzbar (mind. 3 Decks à 50 Karten). Schüler bekommen damit Funktionen, für die andere Tools ein Abo verlangen.
+- **Kostenlos lernen:** Das Basis-Feature-Set ist kostenlos nutzbar (bis zu 1.000 Karten pro Nutzer, beliebig auf Fächer und Decks verteilt, mit Coins erweiterbar). Schüler bekommen damit Funktionen, für die andere Tools ein Abo verlangen.
 - **Zeit sparen:** Der KI-Import senkt die Erstellzeit für 30 Karten auf unter 2 Minuten. Die gewonnene Zeit fließt ins Lernen statt ins Abtippen.
 - **Abwechslung:** Mind. 4 Lernmodi und der Ritterkampf sind zum Projektende als Prototyp lauffähig (zweites Spiel optional). Derselbe Stoff lässt sich so passend zum Fach wiederholen.
 - **Regelmäßig lernen:** Streaks, Erinnerungen und das Lernspiel motivieren zum täglichen Wiederholen statt zum Lernen am Vorabend.
 - **Lernstand sichtbar machen:** Trefferquote und Verlaufsdiagramm zeigen ehrlich, welcher Stoff schon sitzt und welcher nicht.
 
 ### 1.6. Mengengerüst
+
+Erwartete Durchschnittswerte (Schätzung für die Planung, keine Grenzen):
 
 | Größe | Annahme |
 |---|---|
@@ -98,9 +100,17 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 | Karten pro Nutzer und Jahr | ca. 450 |
 | Nutzer (realistische Basis an der HTL Leonding) | ca. 200 |
 | Karten gesamt | ca. 90.000 |
-| Max. Karten pro Deck | 500 |
 
-Datenbestände: Text, Bilder, Audio, Lernstatistik.
+Grenzen in der App:
+
+| Größe | Grenze |
+|---|---|
+| Fächer pro Nutzer | unbegrenzt |
+| Decks pro Fach | unbegrenzt |
+| Karten pro Nutzer | max. 1.000 (mit Coins erweiterbar) |
+| Größe pro Bild | max. 1 MB (wird beim Hochladen verkleinert) |
+
+Datenbestände: Text, Bilder, Lernstatistik.
 
 ### 1.7. Rahmenbedingungen
 

@@ -95,7 +95,7 @@ export default function Presentation() {
           <h2>Geschäftsmodell (simuliert)</h2>
           <ul>
             <li>Kernfunktionen bleiben gratis</li>
-            <li>Coins &ndash; erspielt oder gekauft &ndash; schalten mehr KI-Nutzung, Zusatzmodi und Skins frei</li>
+            <li>Coins &ndash; erspielt oder gekauft &ndash; schalten mehr KI-Nutzung, mehr Karten, Zusatzmodi und Skins frei</li>
             <li>Bewusst kein Pay-to-Win: Wissen lässt sich nicht kaufen</li>
           </ul>
         </section>

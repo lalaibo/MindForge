@@ -32,9 +32,13 @@ Als Schüler möchte ich meinen Lernstoff schnell in Stapel und Karten bringen u
   *Als Schüler* möchte ich eine Liste im Format `Begriff;Erklärung` einfügen können, *um* viele Karten auf einmal anzulegen, ohne jede einzeln abzutippen.  
   Priorität: High · Aufwand: Low
 
-- **US 2.5: Bilder & Audio auf Karten**  
-  *Als Schüler* möchte ich Bilder und Audiodateien zu einer Karte hinzufügen können, *um* auch Stoff wie Diagramme oder Aussprache lernen zu können.  
+- **US 2.5: Bilder auf Karten**  
+  *Als Schüler* möchte ich Bilder zu einer Karte hinzufügen können (beim Hochladen auf max. 1 MB pro Bild verkleinert), *um* auch Stoff wie Diagramme oder Abbildungen lernen zu können.  
   Priorität: Low · Aufwand: Medium
+
+- **US 2.6: Kartenlimit pro Nutzer**  
+  *Als Entwicklerteam* möchte ich die Anzahl der Karten pro Nutzer auf 1.000 begrenzen (Fächer und Decks bleiben unbegrenzt), *um* den Speicherbedarf planbar zu halten; das Limit lässt sich mit Coins erhöhen.  
+  Priorität: Medium · Aufwand: Low
 
 ## Epic 3: KI-Import
 Als Schüler möchte ich aus meinen vorhandenen Skripten automatisch Karten und Testfragen erzeugen lassen.
@@ -124,11 +128,11 @@ Als Schüler möchte ich Coins verdienen und gegen Zusatzinhalte eintauschen, oh
   Priorität: Low · Aufwand: Medium
 
 - **US 7.2: Shop mit simulierter Paywall**  
-  *Als Schüler* möchte ich Coins im Shop gegen zusätzliches KI-Kontingent, weitere Modi und Skins eintauschen können, *um* die App nach meinen Wünschen zu erweitern.  
+  *Als Schüler* möchte ich Coins im Shop gegen zusätzliches KI-Kontingent, ein höheres Kartenlimit, weitere Modi und Skins eintauschen können, *um* die App nach meinen Wünschen zu erweitern.  
   Priorität: Low · Aufwand: High
 
 ## Epic 8: Teilen
 
 - **US 8.1: Stapel mit dem Jahrgang teilen**  
-  *Als Schüler* möchte ich meine fertigen Stapel mit Mitschülern teilen und geteilte Stapel übernehmen können, *um* dass nicht jeder denselben Stoff selbst aufbereiten muss.  
+  *Als Schüler* möchte ich meine fertigen Stapel mit Mitschülern teilen und geteilte Stapel als Kopie übernehmen können (zählt zum eigenen Kartenlimit), *um* dass nicht jeder denselben Stoff selbst aufbereiten muss.  
   Priorität: Low · Aufwand: High

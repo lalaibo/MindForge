@@ -57,7 +57,7 @@ Es fehlt ein Werkzeug, das KI-gestützten Import, mehrere Lernmodi und echte Gam
 
 ### Mengengerüst
 
-Ca. 15 Fächer × 30 Karten ergeben rund 450 Karten pro Nutzer und Jahr. Bei 200 Nutzern sind das ca. 90.000 Karten. Gespeichert werden Text, Bilder, Audio und Lernstatistik.
+Ca. 15 Fächer × 30 Karten ergeben rund 450 Karten pro Nutzer und Jahr. Bei 200 Nutzern sind das ca. 90.000 Karten. Gespeichert werden Text, Bilder und Lernstatistik.
 
 ## 3. Projektziele und Systemkonzept
 
@@ -76,11 +76,11 @@ Mind Forge nimmt Schülern die Arbeit des Kartenschreibens ab und macht das Wied
 
 ### Geschäftsmodell (simuliert)
 
-Die Kernfunktionen bleiben gratis. Coins, erspielt oder gekauft, schalten zusätzliches KI-Kontingent, weitere Modi und kosmetische Inhalte frei. Es gibt bewusst kein Pay-to-Win: Wissen lässt sich nicht kaufen. Die Paywall wird nur simuliert, es fließt kein echtes Geld.
+Die Kernfunktionen bleiben gratis. Coins, erspielt oder gekauft, schalten zusätzliches KI-Kontingent, ein höheres Kartenlimit, weitere Modi und kosmetische Inhalte frei. Es gibt bewusst kein Pay-to-Win: Wissen lässt sich nicht kaufen. Die Paywall wird nur simuliert, es fließt kein echtes Geld.
 
 ### Messbare Ziele
 
-- Das Basis-Feature-Set ist kostenlos nutzbar (mindestens 3 Decks à 50 Karten).
+- Das Basis-Feature-Set ist kostenlos nutzbar (bis zu 1.000 Karten pro Nutzer, beliebig auf Fächer und Decks verteilt, mit Coins erweiterbar).
 - Der KI-Import senkt die Erstellzeit für 30 Karten auf unter 2 Minuten.
 - Zum Projektende sind mindestens 4 Lernmodi und der Ritterkampf als Prototyp lauffähig.
 - Ein zweites Spiel (z. B. Space Invader) ist optional und kein Abnahmekriterium.
