@@ -46,7 +46,6 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 
 #### 1.4.1. Funktionale Anforderungen
 
-- **Benutzerkonto:** Registrierung und Anmeldung mit E-Mail und Passwort. Stapel und Lernfortschritt sind auf allen Geräten (App und Webseite) verfügbar.
 - **Stapelverwaltung:** Fächer (z. B. Englisch, Mathe, Biologie) dienen als Ordner und können angelegt, umbenannt und gelöscht werden. In jedem Fach können ein oder mehrere Decks angelegt, umbenannt, gelöscht und in ein anderes Fach verschoben werden. Fächer und Decks sind unbegrenzt, begrenzt ist nur die Anzahl der Karten pro Nutzer (max. 1.000, mit Coins erweiterbar). Karten mit Begriff und Erklärung erstellen, bearbeiten, löschen und zwischen Decks verschieben. Optional können Bilder an eine Karte angehängt werden; sie werden beim Hochladen auf max. 1 MB pro Bild verkleinert.
 - **Import:**
   - Manuell durch Einfügen einer Liste im Format `Begriff;Erklärung` (eine Karte pro Zeile).
@@ -65,7 +64,7 @@ Es wird eine Lernapp entwickelt, mit der Schüler ihren Lernstoff in Karteikarte
 - **Lernspiel:**
   - *Ritterkampf* (fest geplant): rundenbasiertes Duell mit Fragen aus dem eigenen Deck. Richtige Antworten verletzen den Gegner, falsche kosten den eigenen Ritter Leben. Mehrere Schwierigkeitsgrade.
   - Ein zweites, echtzeitbasiertes Spiel (z. B. Space Invader) ist optional.
-- **Teilen:** fertige Decks mit Mitschülern teilen und geteilte Decks übernehmen. Ein übernommenes Deck ist eine Kopie im eigenen Konto und zählt zum eigenen Kartenlimit.
+- **Teilen:** fertige Decks mit Mitschülern teilen und geteilte Decks übernehmen. Ein übernommenes Deck ist eine eigene Kopie und zählt zum eigenen Kartenlimit.
 - **Simulierte Paywall:** Die Basis ist kostenlos. Coins werden durch Lernen und gewonnene Ritterkämpfe verdient oder (simuliert) gekauft und schalten zusätzliches KI-Kontingent, ein höheres Kartenlimit, weitere Modi und Kosmetik frei. Kein Pay-to-Win, es fließt kein echtes Geld.
 
 #### 1.4.2. Nichtfunktionale Anforderungen (NFA)

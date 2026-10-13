@@ -131,14 +131,14 @@ Die Kernfunktionen bleiben gratis. Coins, erspielt oder gekauft, schalten zusät
 | September/Oktober 2026 | Projektstart, Pflichtenheft und Project Proposal |
 | Oktober 2026 | User Stories priorisiert, Architektur und Technologien festgelegt, Beginn der Implementierung |
 | Dezember 2026 | Erster Prototyp: Stapelverwaltung, manueller Import, Lernmodus Karteikarte |
-| Februar 2027 (Semesterende) | **MVP:** Anmeldung, KI-Import, mindestens 3 Lernmodi, Fortschrittsanzeige |
+| Februar 2027 (Semesterende) | **MVP:** KI-Import, mindestens 3 Lernmodi, Fortschrittsanzeige |
 | Juni 2027 (Ende 4. Klasse) | Mindestens 4 Lernmodi inkl. Leitner-System, Streaks und Erinnerungen, erste spielbare Version des Ritterkampfs |
 | Dezember 2027 | Ritterkampf mit mehreren Schwierigkeitsgraden, simulierte Paywall mit Coins, ggf. zweites Spiel |
 | Frühjahr 2028 (5. Klasse) | Tests und Fehlerbehebung, Abschlusspräsentation und Projektende |
 
 ### Arbeitspakete
 
-1. Grundgerüst: Projektaufbau, CI/CD, Datenbankmodell, Anmeldung
+1. Grundgerüst: Projektaufbau, CI/CD, Datenbankmodell
 2. Stapel- und Kartenverwaltung mit manuellem Import
 3. KI-Import aus PDF, Word und Markdown
 4. Lernmodi einschließlich Leitner-System und Zeitfunktion
